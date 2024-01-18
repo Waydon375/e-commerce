@@ -224,10 +224,10 @@ nav{
   color: rgb(9, 139, 226);
 }
 .sliderItem:nth-child(3) .sliderPrice{
-  color:teal;
+  color:rgb(0, 181, 253);
 }
 .sliderItem:nth-child(4) .sliderPrice{
-  color: cornflowerblue;
+  color: rgb(3, 86, 241);
 }
 .sliderItem:nth-child(5) .sliderPrice{
    color: cornsilk;
