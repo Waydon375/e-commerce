@@ -1,4 +1,4 @@
-*{
+html{
   scroll-behavior: smooth;
 }
 body{
@@ -290,7 +290,7 @@ nav{
   flex-direction: column;
   box-shadow: 0px 0px 28px 12px rgba(0,0,0,0.78);
 -webkit-box-shadow: 0px 0px 28px 12px rgba(0,0,0,0.78);
--moz-box-shadow: 0px 0px 28px 12px rgba(0,0,0,0.78);
+
 
 }
 .payTitle{
@@ -357,10 +357,11 @@ label{
 }
 .productDetails{
   position: absolute;
-  top:10%;
+  top: 10%;
   right: 0;
   width:40%;
   padding:50px;
+
 }
 .productTitle{
   font-size:75px;
@@ -606,6 +607,9 @@ footer{
   }
   .sliderImg{
     width: 90%;
+  }
+  .slideBg{
+    width: 100%;
     height: 100%;
   }
   .sliderTitle{
@@ -613,8 +617,68 @@ footer{
   }
   .sliderPrice{
     top: unset;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
     background-color: lightgrey;
+  }
+  .buyButton{
+    bottom: 0;
+    right: 0;
+  }
+
+  .features{
+    flex-direction: column;
+  }
+  .product{
+    clip-path: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .productImg{
+    width:80%;
+  }
+  .productDetails{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:0;
+  }
+  .productPrice{
+    font-size: 50px;
+    margin: 0;
+  }
+  .gallery{
+    display: none;
+  }
+  .newSeason{
+    flex-direction: column;
+    padding-top:200px;
+
+  }
+  .nsItem:nth-child(2){
+    padding: 50px;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerLeft{
+    padding:20px;
+    width:90%;
+  }
+  .footerRight{
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: rgba(190, 190, 190, 0.445);
+  }
+  .payment{
+    width: 80%;
+    padding: 20px;
   }
 }
